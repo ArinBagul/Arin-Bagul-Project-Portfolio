@@ -1,8 +1,6 @@
 # My Portfolio Website
 
-Welcome to my portfolio website! This website showcases my skills, projects, and provides an overview of my work as a Full Stack Developer. 
-
-![Website Screenshot](screenshot.png)
+Welcome to my portfolio website! This website showcases my skills, projects, and provides an overview of my work as a Full Stack Developer.
 
 ## Technologies Used
 
