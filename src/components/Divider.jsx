@@ -1,9 +1,6 @@
-import React from "react"
-import "../style/divider.css"
+import React from "react";
+import "../style/divider.css";
 
 export default function Divider() {
-    return(
-        <div className="divider-container">
-        </div>
-    )
+  return <div className="divider-container"></div>;
 }

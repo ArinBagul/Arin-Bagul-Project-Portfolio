@@ -1,19 +1,19 @@
 {
-    "skills": [
-        "C++",
-        "Java",
-        "HTML",
-        "CSS",
-        "Vanilla JS",
-        "MongoDB",
-        "Express",
-        "React",
-        "NodeJS",
-        "Three.js",
-        "AWS",
-        "Firebase",
-        "Figma",
-        "Blender 3D",
-        "Adobe Creative Suite"
-    ]
+  "skills": [
+    "C++",
+    "Java",
+    "HTML",
+    "CSS",
+    "Vanilla JS",
+    "MongoDB",
+    "Express",
+    "React",
+    "NodeJS",
+    "Three.js",
+    "AWS",
+    "Firebase",
+    "Figma",
+    "Blender 3D",
+    "Adobe Creative Suite"
+  ]
 }

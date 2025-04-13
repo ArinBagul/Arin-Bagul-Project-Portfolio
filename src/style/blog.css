@@ -1,36 +1,38 @@
-.blog-section{
-    display: flex;
-    flex-direction: column;
-    background-image: url(../assets/blog/blog-bg-el.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    height: 100vh;
+.blog-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/blog/blog-bg-el.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 100vh;
 
-    overflow: hidden;
+  overflow: hidden;
 }
 
-.blog-s-t{
-    font-size: 3rem;
-    color: var(--bg-light);
+.blog-s-t {
+  font-size: 3rem;
+  color: var(--bg-light);
 }
 
-.blog-header{
-    margin-top: 100px;
-    text-align: center;
-    padding: 3rem 0;
+.blog-header {
+  margin-top: 100px;
+  text-align: center;
+  padding: 3rem 0;
 }
 
-.blog-s-t span{
-    background: var(--yellow-gradient, linear-gradient(146deg, #FF7900 -23%, #FFD705 106.55%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.blog-s-t span {
+  background: var(
+    --yellow-gradient,
+    linear-gradient(146deg, #ff7900 -23%, #ffd705 106.55%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.blogs-container{
-    margin: auto;
-    display: flex;
-    gap: 5rem;
-
+.blogs-container {
+  margin: auto;
+  display: flex;
+  gap: 5rem;
 }

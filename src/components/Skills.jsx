@@ -1,20 +1,16 @@
-import React from 'react'
-import Bullet from './Bullet'
-import "../style/skills.css"
-import skillsObj from "./skills-obj.json"
+import React from "react";
+import Bullet from "./Bullet";
+import "../style/skills.css";
+import skillsObj from "./skills-obj.json";
 
 export default function Skills() {
-    const skillsArray = skillsObj.skills
-    // console.log(skillsArray)
+  const skillsArray = skillsObj.skills;
+  // console.log(skillsArray)
 
-    const skillEl = skillsArray.map((skill) => <Bullet skill = {skill} />)
+  const skillEl = skillsArray.map((skill) => <Bullet skill={skill} />);
 
-    // console.log(skillEl)
-    return(
-        <div className="skills-container">
-            {skillEl}
-        </div>
-    )
+  // console.log(skillEl)
+  return <div className="skills-container">{skillEl}</div>;
 }
 
 /*

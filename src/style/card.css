@@ -1,90 +1,91 @@
-.card-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    gap: 5rem;
+  gap: 5rem;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 
-    max-width: 400px;
+  max-width: 400px;
 
-    padding: 20px 30px;
-    margin: 10px;
+  padding: 20px 30px;
+  margin: 10px;
 
-    border-radius: 12px;
-    border: 1.5px solid var(--light-blue, #556271);
-    background: rgba(85, 98, 113, 0.10);
-    box-shadow: 0px 8px 14px 0px rgba(20, 38, 59, 0.11), 0px 2px 5px 0px rgba(20, 38, 59, 0.20);
-    backdrop-filter: blur(36px);
+  border-radius: 12px;
+  border: 1.5px solid var(--light-blue, #556271);
+  background: rgba(85, 98, 113, 0.1);
+  box-shadow: 0px 8px 14px 0px rgba(20, 38, 59, 0.11),
+    0px 2px 5px 0px rgba(20, 38, 59, 0.2);
+  backdrop-filter: blur(36px);
 }
 
-.card-content h3{
-    font-size: 22px;
-    font-weight: 600;
+.card-content h3 {
+  font-size: 22px;
+  font-weight: 600;
 }
-.card-content p{
-    font-size: 14px;
-}
-
-.card-content{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.card-content p {
+  font-size: 14px;
 }
 
-.card-links{
-    display: flex;
-    gap: 15px;
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.card-links svg{
-    width: 24px;
+.card-links {
+  display: flex;
+  gap: 15px;
 }
 
-.card-links a:hover svg path{
-    fill: var(--bright-yellow);
+.card-links svg {
+  width: 24px;
 }
 
-.date-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
-    width: 20rem;
-    height: 16rem;
-    color: var(--light-blue, #556271);
-    font-size: 24px;
-    font-weight: 700;
-
-    opacity: 0.4;
-
-    border-left: 2px solid var(--light-blue);
+.card-links a:hover svg path {
+  fill: var(--bright-yellow);
 }
 
-.timeline-el{
-    content: "";
+.date-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 8px;
-    height: 8px;
-    background-color: var(--light-blue);
-    border-radius: 100%;
-    
-    position: relative;
-    left: -84.5px;
+  text-align: center;
+  width: 20rem;
+  height: 16rem;
+  color: var(--light-blue, #556271);
+  font-size: 24px;
+  font-weight: 700;
+
+  opacity: 0.4;
+
+  border-left: 2px solid var(--light-blue);
 }
 
-.card-arrow{
-    position: absolute;
-    right: -1.5rem;
-    top: 50%;
-    transform: translateY(-50%);
+.timeline-el {
+  content: "";
+
+  width: 8px;
+  height: 8px;
+  background-color: var(--light-blue);
+  border-radius: 100%;
+
+  position: relative;
+  left: -84.5px;
 }
-.card-arrow svg{
-    width: 20px;
+
+.card-arrow {
+  position: absolute;
+  right: -1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card-arrow svg {
+  width: 20px;
 }

@@ -1,40 +1,43 @@
-.tech-section{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+.tech-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
 
-    gap: 70px;
+  gap: 70px;
 
-    background-image: url(../assets/tech/tech-globe.png);
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-position: center bottom;
+  background-image: url(../assets/tech/tech-globe.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center bottom;
 }
 
-.tech-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px;
+.tech-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
 
-    margin: 0 1.5rem;
+  margin: 0 1.5rem;
 }
 
-.tech-h{
-    /* text-align: center; */
-    font-size: 3rem;
-    font-weight: 900;
+.tech-h {
+  /* text-align: center; */
+  font-size: 3rem;
+  font-weight: 900;
 }
-.tech-h span{
-    background: var(--yellow-gradient, linear-gradient(146deg, #FF7900 -23%, #FFD705 106.55%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.tech-h span {
+  background: var(
+    --yellow-gradient,
+    linear-gradient(146deg, #ff7900 -23%, #ffd705 106.55%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.tech-p{
-    max-width: 600px;
-    text-align: justify;
+.tech-p {
+  max-width: 600px;
+  text-align: justify;
 }
