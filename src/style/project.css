@@ -1,0 +1,53 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+}
+
+.project-content{
+    margin-top: 100px;
+    text-align: center;
+}
+.project-h{
+    font-size: 3rem;
+}
+.project-h span{
+    background: var(--yellow-gradient, linear-gradient(146deg, #FF7900 -23%, #FFD705 106.55%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-p{
+    color: var(--light-blue, #556271);
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project-cards{
+    margin-top: 50px;
+}
+
+/* .project-cards::before{
+    display: block;
+    content: "";
+    height: 10px;
+    width: 10px;
+
+    border-radius: 10px;
+    background-color: var(--light-blue);
+
+    position: absolute;
+    left: 52.84rem;
+} */
+
+.project-bg{
+    display: flex;
+}
+
+.project-bg img{
+    width: 100%;
+}

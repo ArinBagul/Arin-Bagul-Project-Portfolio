@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--dark-blue);
+    padding: 5px;
+}
+
+footer p{
+    text-align: center;
+    color: var(--bg-light);
+    font-weight: 300;
+}
+
+footer p span{
+    font-weight: 700;
+    background: var(--yellow-gradient, linear-gradient(146deg, #FF7900 -23%, #FFD705 106.55%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
